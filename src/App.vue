@@ -8,7 +8,7 @@ const days = Math.round(diff / (1000 * 3600 * 24));
 
 <template>
   <div flex flex-col>
-    <h1 text-24 mb-0>0</h1>
+    <h1 text-24 mb-0>{{ days }}</h1>
     <p text-8>days since last time Duli rickrolled me</p>
   </div>
 </template>
