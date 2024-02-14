@@ -1,3 +1,3 @@
 # Duli rickroll
 
-X days since teh last time Duli rickrolled me
+X days since the last time Duli rickrolled me
