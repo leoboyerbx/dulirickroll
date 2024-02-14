@@ -4,6 +4,7 @@ const today = new Date();
 
 let diff = today.getTime() - date.getTime();
 const days = Math.round(diff / (1000 * 3600 * 24));
+document.title = days + ' days since the last time Duli rickrolled me'
 </script>
 
 <template>
