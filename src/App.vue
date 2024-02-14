@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+const date = new Date('2024-02-14')
+const today = Date.now()
+
+let diff = today.getTime() - date.getTime();
+const days = Math.round(diff / (1000 * 3600 * 24));
+</script>
 
 <template>
   <div flex flex-col>
