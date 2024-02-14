@@ -1,6 +1,6 @@
 <script setup>
 const date = new Date('2024-02-14')
-const today = Date.now()
+const today = new Date();
 
 let diff = today.getTime() - date.getTime();
 const days = Math.round(diff / (1000 * 3600 * 24));
